@@ -9,7 +9,7 @@ body {
 
 .container {
     width: 80%;
-    margin: 100px auto;
+    margin: 10% auto;
     display: flex;
     overflow: hidden;
     border-radius: 20px;
@@ -20,7 +20,6 @@ body {
 
 .left-container {
     width: 30%;
-    min-width: 300px;
     display: flex;
     flex-direction: column;
     background-color: #323b4c;
@@ -52,10 +51,17 @@ body {
     padding: 0;
 }
 
+.contact-info ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
 .contact-info li {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     gap: 10px;
+    min-width: 0;
     padding: 5px 0;
 }
 
@@ -73,7 +79,8 @@ body {
 .contact-info a {
     color: #dbefed;
     text-decoration: none;
-    word-wrap: break-word;
+    overflow-wrap: break-word;
+    min-width: 0;
 }
 
 .contact-info a:hover {
