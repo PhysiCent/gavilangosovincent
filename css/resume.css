@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    border-radius: 10px;
+}
+
+.container {
+    width: 80%;
+    margin: 100px auto;
+    display: flex;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px #323b4c;
+}
+
+/*------------------------------------Left-Container------------------------------------------------*/
+
+.left-container {
+    width: 30%;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    background-color: #323b4c;
+    padding: 30px;
+    color:#dbefed;
+}
+
+#profile-pic {
+    width: 90%;
+    height: auto;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 20px auto;
+}
+
+.left-container hr {
+    border: none;
+    height: 2px;
+    background-color: #dbefed;
+    width: 100%;
+    margin: 20px auto;
+    border-radius: 2px;
+}
+
+/*------------------------------------Contact-Info--------------------------------------------------*/
+
+.contact-info {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-info li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 5px 0;
+}
+
+.contact-info svg {
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+    color: #dbefed;
+}
+
+.contact-info address {
+    font-style: normal;
+}
+
+.contact-info a {
+    color: #dbefed;
+    text-decoration: none;
+    word-wrap: break-word;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+    background-color: #378b85;
+}
+
+/*------------------------------------End Contact-Info--------------------------------------------------*/
+
+/*------------------------------------End-Left-Container------------------------------------------------*/
+
+/*------------------------------------Right Container---------------------------------------------------*/
+
+.right-container {
+    width: 70%;
+    background-color: #dbefed;
+    padding: 30px;
+    color: #323b4c;
+}
+
+.certification-url {
+    text-decoration: none;
+    word-wrap: break-word;
+    color: #323b4c;
+}
+
+.certification-url:hover {
+    text-decoration: underline;
+    background-color: #378b85;
+    color:  #dbefed;
+}
