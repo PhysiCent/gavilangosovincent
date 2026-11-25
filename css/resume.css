@@ -1,3 +1,7 @@
+html {
+    font-size: clamp(11px, 2vw, 16px);
+}
+
 * {
     box-sizing: border-box;
 }
